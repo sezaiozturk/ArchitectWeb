@@ -1,0 +1,68 @@
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: italianno;
+    src: url(../fonts/Italianno-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+.header-table {
+    display: table;
+    width: 100%;
+    user-select: none;
+}
+.header-table-cell {
+    display: table-cell;
+    width: 100%;
+    background-color: #b4975b;
+    padding: 10px;
+}
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left-container {
+    display: flex;
+    align-items: center;
+}
+.click-event:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+.click-event:active {
+    transform: translateY(2px);
+    transition: transform 0.1s;
+}
+.logo {
+    width: 100px;
+}
+.header-right-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-right-container a {
+    font-family: inter;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: white;
+}
